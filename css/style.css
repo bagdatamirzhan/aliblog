@@ -1,0 +1,121 @@
+h1 {
+  font-size: 1.4rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: #007bff;
+  background-size: 100%, 100%;
+  background-color: #007bff;
+  /* border-radius: 50%; */
+  /* border: 1px solid #007bff; */
+  /* background-image: none; */
+}
+
+/* .carousel-control-next-icon:after {
+  content: "〉";
+  font-size: 30px;
+  color: #007bff;
+} */
+
+/* .carousel-control-prev-icon:after {
+  content: "〈";
+  font-size: 30px;
+  color: #007bff;
+} */
+
+.carousel ol {
+  margin-bottom: 0;
+}
+
+.carousel-indicators li {
+  background-color: #007bff;
+}
+
+.image-preview {
+  height: 100%;
+}
+
+.image-full {
+  width: 100%;
+}
+
+.carousel-item {
+  height: 325px;
+  border: 1px solid #858e97;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-item:hover:after {
+  content: "Нажмите чтобы увеличить";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  padding: 5px;
+}
+
+/* Container holding the image and the text */
+.image-container {
+  position: relative;
+  padding: 2px;
+}
+
+/* Bottom right text */
+.price-block {
+  position: absolute;
+  top: 10px;
+  left:10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 0.8rem;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.shop-block {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 0.8rem;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.title-block {
+  position: absolute;
+  bottom: 10px;
+  left:10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.title-block h2 {
+  font-size: 1rem;
+  padding: 5px 0;
+  margin-bottom: 2px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.title-block a {
+  color: #fff;
+}

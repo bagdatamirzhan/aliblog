@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /css/
+Disallow: /users/
+Disallow: /external.php
+
+User-agent: Yandex
+Disallow: /css/
+Disallow: /users/
+Disallow: /external.php
+Host: https://aliblog.ru

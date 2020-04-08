@@ -1,0 +1,1 @@
+<img src="https://track24.ru/img/azqwerty/ls-1140x100-4.gif" width="100%" />
