@@ -58,11 +58,15 @@ $route['reviews/(:any)/page/(:num)'] = 'reviews/category/$1';
 // $route['reviews/(:any)/page'] = 'reviews/category/$1';
 $route['reviews/(:any)/(:any)'] = 'reviews/item/$1/$2';
 
+
 // $route['shops'] = 'shops/index';
 $route['shops/(:any)'] = 'shops/items/$1';
 $route['shops/(:any)/page/(:num)'] = 'shops/items/$1';
 
 // $route['goods'] = 'goods/index';
+
+// 
+// $route['reduction'] = 'reduction/index';
 
 $route['keme'] = 'admin/DashboardAdmin/index';
 

@@ -31,7 +31,7 @@ class Reviews extends CI_Controller
     $config['attributes'] = array('class' => 'page-link');
     $config['num_tag_open'] = '<li class="page-item">';
     $config['num_tag_close'] = '</li>';
-    $config['cur_tag_open'] = '<li class="page-item active"><a class="page-link" href="'.current_url().'">';
+    $config['cur_tag_open'] = '<li class="page-item active"><a class="page-link" href="' . current_url() . '">';
     $config['cur_tag_close'] = '<span class="sr-only">(current)</span></a></li>';
     $config['prev_tag_open'] = '<li class="page-item">';
     $config['prev_tag_close'] = '</li>';
